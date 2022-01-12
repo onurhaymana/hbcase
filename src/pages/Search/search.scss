@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+@import "../../styles/placeholders.scss";
+
+.search {
+  &__title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 4.7fr;
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/placeholders.scss";
+
+.paginator {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  &-item {
+    background: $colorWhite;
+    border: 1px solid $colorWhisper;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10px;
+
+    &.active {
+      background: #ff6b00;
+      color: #fff;
+    }
+    &:hover {
+      background: #ff5d0073;
+      color: $colorWhite;
+    }
+  }
+  &-wrapper {
+    display: inherit;
+  }
+}

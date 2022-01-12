@@ -1,0 +1,19 @@
+@import "../../../styles/variables.scss";
+
+.search-bar {
+  background: $colorWhisper url(/static/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: 18px 14px;
+  background-size: 16px 16px;
+  font-size: 13px;
+  height: 100%;
+  padding: 0 40px 0 46px;
+  width: 695px;
+  height: 48px;
+  border: none;
+  border-radius: 100px;
+  &::placeholder {
+    color: $colorDarkGrey;
+    opacity: 1;
+  }
+}

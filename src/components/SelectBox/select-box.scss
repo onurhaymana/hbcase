@@ -1,0 +1,56 @@
+@import "../../styles/variables.scss";
+@import "../../styles/placeholders.scss";
+
+.select-box {
+  width: 120px;
+  &__button {
+    width: 118px;
+    height: 48px;
+
+    font-size: 15px;
+    line-height: 48px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+    color: $colorDarkGrey;
+    border: 1px solid $colorDarkGrey;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    &-icon {
+      position: relative;
+      right: -15px;
+      height: 5px;
+    }
+  }
+  &__dropdown {
+    position: relative;
+    top: -15px;
+    right: 16px;
+    padding-left: 1em;
+    &-item {
+      padding-left: 1.5em;
+      width: 142px;
+      list-style-type: none;
+      color: $colorWhite;
+      background-color: $colorEclipse;
+      height: 22px;
+      line-height: 22px;
+      font-size: 14px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $colorDenim;
+      }
+      &--selected {
+        &:before {
+          content: "✓";
+          position: absolute;
+          left: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+@import "../../styles/placeholders.scss";
+
+.search-results-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  &-title {
+    color: $colorCharcoal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  &-subtitle {
+    color: $colorDarkGrey;
+    font-size: 15px;
+
+    &-text {
+      color: $colorBlack;
+    }
+  }
+}

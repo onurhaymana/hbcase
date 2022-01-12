@@ -1,0 +1,12 @@
+@import "../../../styles/variables.scss";
+
+.modal__cta {
+  padding: 30px 0 10px;
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: -moz-fit-content;
+}
