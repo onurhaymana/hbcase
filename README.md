@@ -1,5 +1,7 @@
 # hbcase
 
+App deployed with Netlify on : https://happy-shirley-193d22.netlify.app/
+
 *Node v12 or higher (with npm)
 
 *Yarn Package Manager -> Install yarn with npm: npm install -g yarn
